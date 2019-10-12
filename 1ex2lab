@@ -1,0 +1,4 @@
+(defun insert(n l v)
+  (if (= n 0) (cons v l)
+      (cons (car l) (insert (1- n) (cdr l) v))))
+      
