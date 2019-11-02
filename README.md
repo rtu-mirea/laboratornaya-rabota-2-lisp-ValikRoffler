@@ -1,1 +1,1 @@
-"# znakomstvo-s-git-i-lisp-ValikRoffler" 
+Вторая лабораторная работа
