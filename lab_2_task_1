@@ -16,7 +16,7 @@
 (defun delete_i(lst i)
     (append (subseq lst 0 i) (nthcdr (+ i 1) lst)))
   
-(print (delete a 0))
+(print (delete_i a 0))
 
 ;; Поиск элемента по значению
 
@@ -25,5 +25,5 @@
         ((eql (car lst) elem) lst)
         ((find elem (cdr lst)))))
 
-(print (search 1 a))
-(print (search 77 a))
+(print (find_v 1 a))
+(print (find_v 77 a))
